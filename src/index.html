@@ -5,7 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline text-cyan-400">Hello world!</h1>
+  <body class="m-auto font-inter bg-white">
+    <header class="flex justify-between items-center h-[84px] border p-3">
+      <div class="">
+        <h1 class="text-black font-bold text-2xl">Tech.</h1>
+      </div>
+      <nav class="hidden md:block">
+        <ul class="flex justify-between gap-3 font-normal text-sm items-center">
+          <li><a href="about"></a>About</li>
+          <li><a href="about"></a>Service</li>
+          <li><a href="about"></a>Our Work</li>
+          <li><a href="about"></a>Team</li>
+        </ul>
+      </nav>
+      <div class="hidden md:block">
+        <button
+          class="bg-primary-100 text-white rounded-full font-semibold text-base p-2 w-[160px]"
+        >
+          Contact Us
+        </button>
+      </div>
+      <div class="md:hidden">
+        <img class="humberger" src="../asset/images/hamburger.svg" alt="menu" />
+      </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <nav class="hidden md:block p-3 menu">
+      <ul class="flex flex-col mt-5 gap-5 font-normal text-sm">
+        <li><a href="about"></a>About</li>
+        <li><a href="about"></a>Service</li>
+        <li><a href="about"></a>Our Work</li>
+        <li><a href="about"></a>Team</li>
+        <button
+          class="bg-primary-100 text-white rounded-full font-semibold text-base p-2 w-full"
+        >
+          Contact Us
+        </button>
+      </ul>
+    </nav>
+
+    <!-- <img src="../asset/images/x-close.svg" alt=""> -->
+    <script src="./script.js"></script>
   </body>
 </html>
