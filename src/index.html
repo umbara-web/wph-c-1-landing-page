@@ -8,7 +8,7 @@
   <body class="font-inter bg-white">
     <!-- Navigation Bar Start -->
     <header
-      class="mx-auto flex justify-between items-center w-[394px] h-[84px] p-3"
+      class="mx-auto flex justify-between items-center w-[394px] h-[84px] p-3 lg:w-[1440px] lg:px-[140px]"
     >
       <div class="">
         <h1 class="text-black font-bold text-2xl">Tech.</h1>
@@ -50,15 +50,21 @@
     <!-- Navigation Bar End -->
 
     <!-- Hero Section Star -->
-    <section id="home">
-      <div class="container">
-        <div class="mx-auto w-[394px] h-[720px]">
-          <div class="px-5">
-            <h1 class="font-bold text-[40px] leading-12 tracking-[-3%] mt-10">
+    <section id="home" class="">
+      <div class="bg-linear-to-b from-white to-primary-100">
+        <div
+          class="mx-auto w-[394px] h-[720px] lg:w-[1440px] lg:h-[750px] lg:px-[140px] lg:flex"
+        >
+          <div
+            class="px-5 lg:w-[687px] lg:h-[282px] lg:px-0 lg:absolute lg:mt-[200px]"
+          >
+            <h1
+              class="font-bold text-[40px] leading-12 tracking-[-3%] mt-10 lg:text-[56px] lg:leading-[68px]"
+            >
               Build with the <span class="italic text-[#bf9b30]">Future.</span>
             </h1>
             <p
-              class="font-regular text-md leading-[30px] tracking-[-3%] text-neutral-500 mt-4"
+              class="font-regular text-md leading-[30px] tracking-[-3%] text-neutral-500 mt-4 lg:text-xl lg:leading-[34px]"
             >
               From building sleek websites and mobile apps to integrating AI
               solutions, we help brands turn ideas into powerful digital
@@ -66,18 +72,29 @@
             </p>
 
             <button
-              class="font-semibold text-sm leading-7 text-white bg-primary-100 rounded-full h-12 w-[354px] mt-6"
+              class="font-semibold text-sm leading-7 text-white bg-primary-100 rounded-full h-12 w-[354px] mt-6 lg:text-md lg:leading-[30px] lg:w-[300px]"
             >
               Let's Talk
             </button>
           </div>
-          <div class="w-[308.85px] h-[419.77px] mt-[35px]">
+          <div
+            class="w-[308.85px] h-[419.77px] mt-[35px] lg:w-[590.64px] lg:h-755.31px] lg:absolute lg:ml-[564px] lg:mt-[21px]"
+          >
             <img src="./asset/images/hero-hand.png" alt="hero hand" class="" />
           </div>
         </div>
       </div>
     </section>
     <!-- Hero Section End -->
+
+    <!-- Who We Are Section Start -->
+    <div class="mx-auto text-center w-[394px] h-[246px] px-5 py-10 lg:w-[1440px] lg:h-[332px] lg:px-[140px] lg:py-20">
+      <h1 class="font-bold text-[28px] lg:text-[40px]">Who We Are</h1>
+      <p class="font-semibold text-lg text-neutral-500 mt-4 lg:text-3xl lg:mt-6">We're a group of tech students trained in <span class="text-black">building real-world digital products.</span></p>
+      <p class="font-semibold text-lg text-neutral-500 lg:text-3xl">From coding to design, we <span class="text-black">craft modern solutions for modern problems.</span></p>
+      </div>
+    </div>
+    <!-- Who We Are Section End -->
 
     <script src="./script.js"></script>
   </body>
